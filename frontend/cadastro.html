@@ -26,10 +26,50 @@
       <label for="name">Nome:</label>
       <input type="text" id="name" name="name" required>
 
+      <script>
+        const name = "name"
+
+        if (regex.test.(name)){
+          console.log('Nome válido!')
+        }
+
+        else{
+          console.log("Nome inválido!")
+        }
+      </script>
+
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required> 
 
+      <script>
+        document.getElementById('email')
+        const email = "exem@ex.com"
+        
+        
+        if (regex.test(email)){
+          console.log("Válido!");
+        }
+
+        else{
+          console.log("ERR0 !")
+        }
+        
+      </script>
+
       <button type="submit">Cadastrar</button>
+
+      <script>
+        const cadastro = "name , email"
+
+        if (regex.test(cadastro)){
+          console.log("Cadastro conclúido")
+        }
+        
+        else{
+          consolel.log("ERR0! CADASTRO INVÁLIDO!")
+        }
+      </script>
+
     </form>
   </main>
 
@@ -40,5 +80,6 @@
   <script src="js/formHandler.js" type="module"></script>
   <script src="js/menuToggle.js" type="module"></script>
   <script src="js/toggleTheme.js" type="module"></script>
+  <script src="js/form.js" type="module"></script>
 </body>
 </html>
